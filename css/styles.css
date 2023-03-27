@@ -682,29 +682,13 @@ button {
     height: 40px;
     padding-left: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     background-color: var(--modal-color);
     border-radius: 4px;
     color: rgba(255, 255, 255, 0.6);
     transition: background-color var(--transition-dur-and-func),
             color var(--transition-dur-and-func),
             border var(--transition-dur-and-func);
-}
-
-.footer-input-mail:hover,
-.footer-input-mail:focus {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.footer-icon {
-    position: absolute;
-    top: 50%;
-    left: 16px;
-    transform: translateY(-50%);
-    display: block;
-    width: 24px;
-    height: 24px;
-    fill: var(--mains-color);
-    transition: fill var(--transition-dur-and-func);
 }
 
 .footer-form-submit {
@@ -734,6 +718,19 @@ button {
 .footer-form-submit:hover,
 .footer-form-submit:focus {
     background-color: var(--pressed-state);
+}
+
+.footer-form-icon {
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    margin-right: 16px;
+    transform: translateY(-50%);
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    fill: var(--mains-color);
+    transition: fill var(--transition-dur-and-func);
 }
 
 /* MODAL WINDOW */
@@ -967,8 +964,8 @@ button {
     border-radius: 4px;
     border: none;
     transition: background-color var(--transition-dur-and-func),
-    color var(--transition-dur-and-func),
-    border var(--transition-dur-and-func);
+                color var(--transition-dur-and-func),
+                border var(--transition-dur-and-func);
 }
 
 .modal-form-submit:hover,

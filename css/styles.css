@@ -773,7 +773,7 @@ button {
 
 .form-icon {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 16px;
     transform: translateY(-50%);
     display: block;

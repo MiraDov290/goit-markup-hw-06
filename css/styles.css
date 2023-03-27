@@ -720,13 +720,13 @@ button {
     background-color: var(--pressed-state);
 }
 
-.footer-form-icon {
+.footer-icon {
     position: absolute;
     top: 50%;
     left: 16px;
     margin-right: 16px;
     transform: translateY(-50%);
-    display: inline-block;
+    display: block;
     width: 24px;
     height: 24px;
     fill: var(--mains-color);

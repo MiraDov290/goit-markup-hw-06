@@ -678,7 +678,6 @@ button {
 }
 
 .footer-input-mail {
-    width: 264px;
     height: 40px;
     padding-left: 16px;
     border: 1px solid rgba(255, 255, 255, 0.3);
@@ -692,14 +691,10 @@ button {
 }
 
 .footer-form-submit {
-    position: absolute;
-    width: 165px;
-    height: 40px;
-    
+    position: relative;
+    padding: 8px 64px 8px 24px;
     margin-left: 24px;
-    padding: 8px 24px;
 
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -710,27 +705,18 @@ button {
     color: var(--mains-color);
     border-radius: 4px;
     border: none;
-    transition: background-color var(--transition-dur-and-func),
-        color var(--transition-dur-and-func),
-        border var(--transition-dur-and-func);
-}
-
-.footer-form-submit:hover,
-.footer-form-submit:focus {
-    background-color: var(--pressed-state);
+    transition: background-color var(--transition-dur-and-func);
 }
 
 .footer-icon {
     position: absolute;
+    right: 16px;
     top: 50%;
-    left: 16px;
-    margin-right: 16px;
-    transform: translateY(-50%);
-    display: block;
     width: 24px;
     height: 24px;
+    
+    transform: translateY(-50%);
     fill: var(--mains-color);
-    transition: fill var(--transition-dur-and-func);
 }
 
 /* MODAL WINDOW */

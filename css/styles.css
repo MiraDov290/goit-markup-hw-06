@@ -708,6 +708,11 @@ button {
     transition: background-color var(--transition-dur-and-func);
 }
 
+.footer-form-submit:hover,
+.footer-form-submit:focus {
+    background-color: var(--pressed-state);
+}
+
 .footer-icon {
     position: absolute;
     right: 16px;
@@ -937,7 +942,6 @@ button {
     margin-top: 24px;
     padding: 16px 32px;
     
-    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;

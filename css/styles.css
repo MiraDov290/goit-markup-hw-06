@@ -858,6 +858,8 @@ button {
 
 .form-icon {
     position: absolute;
+    width: 18px;
+    height: 24px;
     top: 50%;
     left: 16px;
     transform: translateY(-50%);

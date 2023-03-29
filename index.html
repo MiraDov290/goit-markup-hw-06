@@ -419,26 +419,24 @@
             </li>
           </ul>
         </div>
-        <div class="footer-subscribe">
-        <p class="hero-footer-form">Subscribe</p>
         <form class="footer-form">
-          <div class="footer-form-input-footer">
-            <label for="e-mail">
+          <p class="hero-footer-form">Subscribe</p>
+          <label>
             <input
               type="e-mail"
               name="e-mail"
               class="footer-input-mail"
               id="e-mail"
-              placeholder="E-mail"/>
-          <button type="submit" class="footer-form-submit">Subscribe 
+              placeholder="E-mail"
+          /></label>
+          <button type="submit" class="footer-form-submit">
+            Subscribe
             <svg class="footer-icon" weight="24" height="24">
               <use href="./images/icons.svg#icon-frame"></use>
             </svg>
           </button>
-          </label>
-          </div>
         </form>
-        </div>
+      </div>
     </footer>
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
@@ -450,9 +448,9 @@
 
         <p class="title-form">Leave your contacts and we will call you back</p>
         <form class="modal-form">
-          <div class="modal-form-input-wrapper">
-            <label class="modal-form-field">
-              <span class="modal-form-input-desc">Name</span>
+          <label class="modal-form-field">
+            <span class="modal-form-input-desc">Name</span>
+            <span class="modal-form-input-wrapper">
               <input
                 type="text"
                 name="user-name"
@@ -463,11 +461,12 @@
               <svg class="form-icon" weight="18" height="18">
                 <use href="./images/icons.svg#icon-person-black"></use>
               </svg>
-            </label>
-          </div>
-          <div class="modal-form-input-wrapper">
-            <label class="modal-form-field">
-              <span class="modal-form-input-desc">Phone</span>
+            </span>
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modal-form-input-desc">Phone</span>
+            <span class="modal-form-input-wrapper">
               <input
                 type="tel"
                 name="title"
@@ -478,11 +477,12 @@
               <svg class="form-icon" weight="18" height="18">
                 <use href="./images/icons.svg#icon-phone-black"></use>
               </svg>
-            </label>
-          </div>
-          <div class="modal-form-input-wrapper">
-            <label class="modal-form-field">
-              <span class="modal-form-input-desc">Email</span>
+            </span>
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modal-form-input-desc">Email</span>
+            <span class="modal-form-input-wrapper">
               <input
                 type="email"
                 name="mail"
@@ -492,18 +492,18 @@
               <svg class="form-icon" weight="18" height="18">
                 <use href="./images/icons.svg#icon-email-black"></use>
               </svg>
-            </label>
-          </div>
-          <div class="modal-form-input-wrapper">
-            <label class="modal-form-field">
-              <span class="modal-form-input-desc">Comment</span>
-              <textarea
-                name="user-message"
-                class="modal-form-message"
-                placeholder="Text input"
-              ></textarea>
-            </label>
-          </div>
+            </span>
+          </label>
+
+          <label class="modal-form-field">
+            <span class="modal-form-input-desc">Comment</span>
+            <textarea
+              name="user-message"
+              class="modal-form-message"
+              placeholder="Text input"
+            ></textarea>
+          </label>
+
           <div class="user-policy-wrapper">
             <input
               id="user-policy"
@@ -515,15 +515,17 @@
               placeholder=" "
             />
             <label for="user-policy" class="modal-form-check-desc">
-              <svg class="user-policy-icon" weight="10" height="8">
-                <use
-                  class="user-policy-icon-check"
-                  href="./images/icons.svg#icon-vector"
-                ></use>
-              </svg>
+              <span class="user-policy-icon-wrapper">
+                <svg class="user-policy-icon" weight="10" height="8">
+                  <use
+                    class="user-policy-icon-check"
+                    href="./images/icons.svg#icon-vector"
+                  ></use>
+                </svg>
+              </span>
               <span class="user-policy"
                 >I accept the terms and conditions of the
-                <a href="">Privacy Policy</a>
+                <a class="user-policy-link" href="">Privacy Policy</a>
               </span>
             </label>
           </div>
